@@ -3,12 +3,12 @@
 using namespace std;
 
 int main(){
-  int N=0, b=N-1;
+  int N=0;
   cin >> N;
-  if(numeriprimi(N,b)){
-    cout << "numero primo" <<endl;
+  if(numeriprimi(N, N-1)){
+    cout << "numero primo";
   }else{
-    cout << "numero non primo" <<endl;
+    cout << "numero non primo";
   }
   return 0;
 }
