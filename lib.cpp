@@ -1,7 +1,7 @@
 #include "lib.h"
 
 bool numeriprimi (int N, int a){
-  if(N<1){
+  if(N<0){
     return false;
   }else if(N==1){
     return true;
