@@ -9,7 +9,7 @@ bool numeriprimi (int N, int a){
   }else if(N%a==0){
     return false;
   }
-  numeriprimi(n,--a);
+  numeriprimi(N,--a);
 }
   
 
